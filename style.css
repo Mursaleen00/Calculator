@@ -8,7 +8,7 @@ body{
 div{
     background-color: rgba(255, 228, 196, 0.164);
     display: inline-block;
-    margin: 100px;
+    margin: 10px;
     box-shadow: 10px 10px 50px rgba(128, 128, 128, 0.603);
     border-radius: 5px;
 }
@@ -18,6 +18,8 @@ table, tr, th, td{
     width: 200px;
     height: 50px;
     margin: auto;
+    text-shadow: 1px 1px 5px #A07855FF;
+
 }
 
 th{
@@ -29,4 +31,89 @@ th{
 td{
     box-shadow: 2px 2px 5px #A07855FF;
     border-radius: 5px;
+}
+
+/* Calculater2 */
+
+#main{
+    border: 0.5px solid #A07855FF;
+    padding: 5px;
+    
+}
+
+#screen{
+    border: 0.5px solid #A07855FF;
+    width: 180px;
+    height: 40px;
+    display: block;
+    box-shadow: 2px 2px 5px #A07855FF;
+    color: #A07855FF;
+    text-shadow: 1px 1px 5px #A07855FF;
+
+}
+
+.btn{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 228, 196, 0.164);
+    margin: 3px;
+    border: 0.5px solid #A07855FF;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #A07855FF;
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #A07855FF;
+
+}
+
+.btn:hover{
+    background-color: rgba(255, 228, 196, 0.445);
+}
+
+.btn:active{
+    background-color: rgba(255, 228, 196, 0.651);
+    box-shadow: 1px 1px 10px #A07855FF;
+    color: #A07855FF;
+    
+}
+
+
+
+/* calculater3 */
+
+.btn1{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 228, 196, 0);
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 5px #A07855FF; */
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #A07855FF;
+}
+
+.btn1:hover{
+    background-color: rgba(160, 120, 85, .05);
+}
+
+.btn1:active{
+    background-color: rgba(160, 120, 85, .10);
+    
+    color: #A07855FF;
+    
+}
+
+
+#screen1{
+    width: 180px;
+    height: 40px;
+    display: block; 
+    background-color: rgba(160, 120, 85, .05);
+}
+
+#main1{
+    border: 0.5px solid rgba(160, 120, 85, 0);
+    padding: 5px;
+    background-color: rgba(160, 120, 85, 0);
+    box-shadow: 1px 1px 10px #A07855FF;
 }
